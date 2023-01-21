@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'main': "'Unbounded', cursive"
+        default: "'Open Sans', sans-serif",
+        'main': "'Unbounded', cursive",
       }
     },
   },
