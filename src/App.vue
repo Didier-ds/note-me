@@ -15,6 +15,12 @@ import IconSearch from './components/icons/IconSearch.vue';
           <input type="text" placeholder="Search" class="outline-none h-full px-2"/>
         </div>
       </div>
+      <div class="p-4">
+        <p class="font-bold text-2xl font-main p-4">Notes</p>
+        <div>
+          
+        </div>
+      </div>
     </div>
   </div>
 </template>

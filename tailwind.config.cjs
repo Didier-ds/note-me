@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,vue,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'main': "'Unbounded', cursive"
+      }
+    },
   },
   plugins: [],
 }
