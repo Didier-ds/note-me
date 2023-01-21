@@ -1,29 +1,24 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import IconSearch from './components/icons/IconSearch.vue';
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="flex h-screen">
+    <div class="border-r flex justify-center h-full w-32">
+        <p class="py-8 font-bold text-lg w-full text-center">NOTE-ME</p>
+    </div>
+    <div class="w-full">
+      <div class="header h-20 px-6 flex items-center">
+        <div class="input flex gap-1 p-3">
+          <IconSearch />
+          <input type="text" placeholder="Search" class="outline-none h-full px-2"/>
+        </div>
+      </div>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
